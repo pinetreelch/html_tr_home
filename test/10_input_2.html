@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<h1>텍스트 관련 인풋 타입</h1>
+	
+	<form action="">
+
+	<label for="textIP">text</label> <br />
+	<input 
+		type="text"
+		id="textIP"
+		placeholder="5자 이하"
+		maxlength="8" /> 
+		<br /><br />
+		
+	<label for="pwd">password</label> <br />
+	<input 
+		type="password"
+		id="pwd"
+		placeholer="4자이상"
+		minlength="4" />
+		<br /><br />
+		
+	<label for="search_1">search</label> <br />
+	<input 
+		type="search"
+		id= "searc_1" />
+		<br /><br />
+		
+	<label for="tel_1">전화번호</label> <br />
+	<input type="tel" id="tel_1" />
+	<br /><br />
+	
+	<button type="submit">제출</button>
+	</form>
+	
+	<h1>숫자 관련 인풋 타입</h1>
+	<form action="#">
+	<label for="numip">number</label> <br />
+	<input 
+		type="number"
+		id="numbip"
+		min="0"
+		max="10" />
+	<br /><br />
+	<label for="rqip">range</label> <br />
+	<input 
+		type="range"
+		id="rqip"
+		min="0"
+		max="100"
+		step="20" />
+	<br /><br />
+	
+	<label for="dateip">Date</label>
+	<input 
+		type="date"
+		id="dateip"
+		min="2020-01-01"
+		max="2030-12-31" />
+	<br /><br />
+	</form>
+	
+	<h1>체크 관련 인풋 타입</h1>
+	
+	<form action="">
+	
+	<h2>체크박스</h2>
+	<input 
+		type="checkbox"
+		id="cbip"
+		checked
+		 />
+	<label for="cbip">유기농</label> <br />
+	
+	<h2>radio</h2>
+	<input 
+		type="radio"
+		name="fruit"
+		id="_apple"
+		value="applepo" 
+		checked
+		/>
+	<label for="_apple">사과</label>
+	
+	<input 
+		type="radio"
+		name="fruit"
+		id="_grape"
+		value="grape" />
+	<label for="_grape">포도</label>
+			
+		
+	
+	
+	</form>
+	
+	
+</body>
+</html>
